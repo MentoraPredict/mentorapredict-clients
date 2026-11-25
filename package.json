@@ -1,0 +1,17 @@
+{
+  "name": "mentorapredict-clients",
+  "private": true,
+  "description": "MentoraPredict client applications: web, mobile, desktop and public site",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "turbo": "^2.11.13"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "dev": "turbo run dev"
+  }
+}
